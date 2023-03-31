@@ -1,0 +1,11 @@
+{
+    "make": "make",
+    "toolchain": "/usr",
+    "avrdude": "avrdude",
+    "usrbin": "/usr/bin/",
+    "files.associations": {
+        "io.h": "c",
+        "delay.h": "c",
+        "stdlib.h": "c"
+    }
+}
