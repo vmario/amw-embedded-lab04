@@ -59,7 +59,6 @@ void SystemTick::init() const
 	TCCR0 = TIMER0_CTC | TIMER0_PRESCALER_256;
 	OCR0 = TIMER0_OCR_TICK;
 	TIMSK = _BV(OCIE0);
-	sei();
 #elif defined __AVR_ATmega1284P__
 	TCCR0A = TIMER0_CTC;
 	TCCR0B = TIMER0_PRESCALER_256;
@@ -68,6 +67,8 @@ void SystemTick::init() const
 #else
 #error Niezdefiniowany typ mikrokontrolera.
 #endif
+
+	sei();
 }
 
 bool SystemTick::checkAndClear() const
