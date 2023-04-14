@@ -56,7 +56,7 @@ Zmodyfikuj metody `write()` komend zaimplementowanych w `lcdCommands.cpp`. Dodaj
 
 Zwróć uwagę na drugą linię wyświetlacza. Popraw sposób wyświetlania.
 
-Odnajdź miejsce w kodzie inicjalizacyjnym wyświetlacza, gdzie konfigurowany jest kursor i wyłącz go.
+Odnajdź miejsce w kodzie inicjalizacyjnym wyświetlacza, gdzie konfigurowany jest kursor, i wyłącz go.
 
 # Zadanie rozszerzone
 
